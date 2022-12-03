@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { Footer } from '../components/footter'
-import Links from '../components/links'
-import HeadLine from '../components/headline'
+import {Links} from '../components/links'
+import { HeadLine } from '../components/headline'
 
 
-export default function Home() {
+export function Home() {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <HeadLine page="index"/>
+        <HeadLine page="index" />
         <Links />
       </main>
       <Footer />

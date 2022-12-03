@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { Footer } from '../components/footter'
-import Links from '../components/links'
-import HeadLine from '../components/headline'
+import { Links } from '../components/links'
+import { HeadLine } from '../components/headline'
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <HeadLine page="about"/>
+        <HeadLine page="about" />
         <Links />
       </main>
       <Footer />
