@@ -2,8 +2,7 @@ import React from 'react';
 import styles from '../styles/Home.module.css';
 
 
-export default function HeadLine(props: any) {
-    console.log(props.title);
+export function HeadLine(props:any) {
 
     return (
         <div>
@@ -13,8 +12,9 @@ export default function HeadLine(props: any) {
 
             <p className={styles.description}>
                 Get started by editing{' '} 
-                <code className={styles.code}>pages/{props.page}.tsx</code>
+                {props.children}
             </p>
+
         </div>
 
     );
