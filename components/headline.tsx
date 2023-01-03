@@ -14,7 +14,6 @@ export function HeadLine(props:any) {
                 Get started by editing{' '} 
                 {props.children}
             </p>
-
         </div>
 
     );

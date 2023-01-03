@@ -1,0 +1,21 @@
+.header {
+    border-bottom: 2px solid #eaeaea;
+    display: flex;
+    height: 100.0px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    display: inline-block;
+    padding: 8px 24px;
+    font-size: 1.2rem;
+}
+
+.paragraph:hover,
+.paragraph:focus,
+.paragraph:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
