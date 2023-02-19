@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import clesses from './Footer.module.css'
+import clesses from 'src/components/footer/Footer.module.css'
 
 export function Footer() {
     return (
